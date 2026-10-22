@@ -118,3 +118,6 @@ struct SuffixArray {
         return false;
     }
 };
+
+// Does: Sorts suffixes, builds adjacent LCPs, and searches substrings.
+// Example: SuffixArray sa("banana"); bool found = sa.contains("ana");

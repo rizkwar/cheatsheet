@@ -127,3 +127,7 @@ ld segArea(Circle c,P p1,P p2) {
     if (theta>PI) theta=2*PI-theta;
     return .5L*sq(c.r)*(theta-sinl(theta));
 }
+
+// Does: Handles circle intersections, tangents, arcs and overlap areas.
+// Example: Circle c(P(0, 0), 2); int side = ptCircle(P(0, 0), c);
+// side == -1 (inside); requires geometry helpers from 31-32.

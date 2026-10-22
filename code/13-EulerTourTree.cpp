@@ -11,3 +11,7 @@ void dfs(ll node, ll par) {
     flat[++t] = node;
     en[node] = t;
 }
+
+// Does: Records tree entry/exit times; each vertex appears twice.
+// Example: t = 0; dfs(1, 0); // fill adj with tree edges first
+// Subtree x occupies flat[st[x]..en[x]], including both visits.

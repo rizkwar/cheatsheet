@@ -73,3 +73,7 @@ struct TwoSat {
         return true;
     }
 };
+
+// Does: Finds a true/false assignment satisfying clauses of two literals.
+// Example: TwoSat sat(1); sat.add(0, 0); // forces variable 0 true
+// vector<int> ans; bool ok = sat.solve(ans); // true; ans[0] == 1

@@ -40,3 +40,7 @@ struct FWHT {
         return res;
     }
 };
+
+// Does: Applies the XOR transform and its inverse for XOR convolution.
+// Example: FWHT f(998244353); vector<int> a{1, 2, 3, 4};
+// f.transform(a); f.inverse(a); // restores a; size must be a power of 2

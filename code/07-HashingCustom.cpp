@@ -34,3 +34,6 @@ int main() {
     mp[1] = 10;
     if (mp.find(1) != mp.end()) cout << mp[1] << '\n';
 }
+
+// Does: Randomizes integer hashes to reduce adversarial collisions.
+// Example: unordered_map<long long,int,custom_hash> mp; mp[42] = 7;

@@ -40,3 +40,6 @@ for (int i = 0; i < r; i++) {
         dp.swap(ndp);
     }
 }
+
+// Does: Counts m selected cells with no row/column separation of 1 or 2.
+// Example: For r=1, c=3, m=1, sum dp[mask][1] over all masks -> 3.

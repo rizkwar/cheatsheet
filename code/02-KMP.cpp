@@ -30,3 +30,6 @@ struct KMP {
         return ans;
     }
 };
+
+// Does: Counts pattern occurrences in a text, including overlaps.
+// Example: KMP k("aba"); int hits = k.count("ababa"); // 2

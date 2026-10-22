@@ -40,3 +40,6 @@ struct Hash {
         return get(l1, r1) == get(l2, r2);
     }
 };
+
+// Does: Compares substrings using two rolling hashes (0-based, inclusive).
+// Example: Hash h("ababa"); bool same = h.equal(0, 2, 2, 4); // true

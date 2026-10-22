@@ -20,3 +20,6 @@ void pre() {
         ifac[i - 1] = 1LL * ifac[i] * i % modn;
     }
 }
+
+// Does: Precomputes factorials and inverses for fast binomial coefficients.
+// Example: pre(); int ways = C(5, 2); // 10; requires prime modn > maxn

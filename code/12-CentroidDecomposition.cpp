@@ -64,3 +64,7 @@ struct CentroidDecomposition {
     }
   }
 };
+
+// Does: Recursively splits a tree at centroids for custom path queries.
+// Example: CentroidDecomposition cd(n); // add tree edges with add_edge
+// cd.decompose(1); // add your query logic at PROCESS CENTROID

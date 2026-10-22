@@ -44,4 +44,8 @@ struct FFT {
     for(int i=0;i<n;i++) res[i] = (long long) llround(fa2[i].real());
     return res;
   }
-} fft; 
+} fft;
+
+// Does: Multiplies polynomials using FFT and rounds integer coefficients.
+// Example: auto c = fft.multiply({1, 2}, {3, 4}); // starts {3, 10, 8}
+// Note: Remove the stray 'a' after a[i+j] = u+v; before compiling.

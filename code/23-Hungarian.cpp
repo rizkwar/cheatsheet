@@ -68,3 +68,7 @@ struct Hungarian {
         return {-next[0], match};
     }
 };
+
+// Does: Finds a minimum-cost one-to-one assignment in a square matrix.
+// Example: Hungarian h({{0,0,0}, {0,1,5}, {0,4,2}}); // 1-based costs
+// auto [cost, match] = h.solve(); // cost == 3; match[1]=1, match[2]=2

@@ -8,3 +8,7 @@ for(int i = 2; i <= n; i++){
         }
     }
 }
+
+// Does: Precomputes phi[x], the count of integers 1..x coprime to x.
+// Example: Set n=10, run the sieve, then phi[10] should be 4.
+// Note: The inner loop must start at j=i; j=1 above is a typo.

@@ -34,3 +34,6 @@ struct CartesianTree {
         root = st.front();
     }
 };
+
+// Does: Builds a min-heap tree preserving the array's inorder sequence.
+// Example: CartesianTree t(vector<int>{3, 1, 2}); // t.root == 1 (0-based)

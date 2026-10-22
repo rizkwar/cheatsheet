@@ -84,3 +84,7 @@ void erase(Node *&t, int key, int id) {
 
   pull(t);
 }
+
+// Does: Maintains sorted (key,id) pairs with randomized split/merge.
+// Example: Node* t = nullptr; insert(t, new Node(5, 1));
+// erase(t, 5, 1); // removes that pair; use distinct ids for duplicate keys

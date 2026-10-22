@@ -76,3 +76,7 @@ struct SCC {
         return dag;
     }
 };
+
+// Does: Groups mutually reachable vertices and builds their condensed DAG.
+// Example: SCC s(2); s.addEdge(1, 2); s.run(); // s.cnt == 2
+// auto dag = s.buildDAG(); // vertices are 1-based; components are 0-based

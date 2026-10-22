@@ -44,3 +44,7 @@ int lca(int node, int next) {
 
     return up[node][0];
 }
+
+// Does: Finds the lowest common ancestor using binary lifting.
+// Example: adj = {{}, {2,3}, {1}, {1}}; dfs(1, 0);
+// int ancestor = lca(2, 3); // 1

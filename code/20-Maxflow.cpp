@@ -101,3 +101,6 @@ struct Dinic {
         return false;
     }
 };
+
+// Does: Computes maximum flow in a directed graph with capacities.
+// Example: Dinic d(2); d.addEdge(0, 1, 5); int f = d.flow(0, 1); // 5

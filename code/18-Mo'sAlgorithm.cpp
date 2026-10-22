@@ -64,3 +64,7 @@ struct Mo {
         return ans;
     }
 };
+
+// Does: Answers offline range queries for sum(value * frequency^2).
+// Example: Mo mo(vector<int>{0, 1, 2, 1}); // array is 1-based
+// auto ans = mo.solve({{1, 3}}); // ans[0] == 6

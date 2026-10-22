@@ -100,3 +100,6 @@ struct NTT {
         return A;
     }
 } ntt;
+
+// Does: Multiplies polynomials exactly modulo 998244353 using NTT.
+// Example: auto c = ntt.multiply({1, 2}, {3, 4}); // {3, 10, 8}

@@ -140,3 +140,7 @@ struct Blossom {
         return ans;
     }
 };
+
+// Does: Finds a maximum matching in a general undirected graph.
+// Example: Blossom b(3); b.addEdge(0, 1); b.addEdge(1, 2);
+// int pairs = b.solve(); // 1; b.match stores partners, -1 if unmatched

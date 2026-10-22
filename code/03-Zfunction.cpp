@@ -35,3 +35,6 @@ vector<int> search(const string& text, const string& pattern) {
 
     return pos;
 }
+
+// Does: Computes prefix-match lengths and finds pattern positions.
+// Example: auto pos = search("ababa", "aba"); // {0, 2}, 0-based

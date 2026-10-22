@@ -80,3 +80,7 @@ struct HLD {
         return dep[node] < dep[next] ? node : next;
     }
 };
+
+// Does: Splits a tree into heavy chains and supports LCA queries.
+// Example: HLD h(3); h.addEdge(1, 2); h.addEdge(1, 3); h.build();
+// int ancestor = h.lca(2, 3); // 1

@@ -92,3 +92,7 @@ void solve() {
         }
     }
 }
+
+// Does: Keeps array versions with point assignments and range sums.
+// Example: root[1] = build(1, n); // initialize a[1..n] first; n >= 2
+// root[2] = upd(root[1], 1, n, 2, 7); // qry(root[2], 1, n, 2, 2) == 7

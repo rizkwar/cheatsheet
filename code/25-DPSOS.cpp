@@ -18,3 +18,6 @@ void add(int mask, int bit) {
     if (mask & (1 << bit))
         add(mask ^ (1 << bit), bit - 1);
 }
+
+// Does: Sums values over submasks or supermasks; also enumerates submasks.
+// Example: K=2, dp={1,2,3,4}; run ONLY the submask loop -> {1,3,4,10}.

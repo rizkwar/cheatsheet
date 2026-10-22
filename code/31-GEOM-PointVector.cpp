@@ -58,3 +58,6 @@ bool polarCmp(const P& a,const P& b) {
     if (sign(cr)!=0) return cr>0;
     return a.norm()<b.norm();
 }
+
+// Does: Provides 2D point/vector arithmetic, distances, dot and cross products.
+// Example: P p(3, 4); ld length = p.abs(); // 5

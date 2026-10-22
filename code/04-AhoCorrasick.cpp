@@ -127,3 +127,7 @@ void solve() {
     for (int i = 1; i <= q; i++)
         cout << (ans[i] ? "y\n" : "n\n");
 }
+
+// Does: Checks which patterns appear in a text (a-z, A-Z).
+// Example: AhoCorasick ac(4); ac.addWord("aba", 1); ac.build();
+// auto found = ac.solve("ababa", 1); // found[1] == 1

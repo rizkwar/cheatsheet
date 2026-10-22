@@ -249,3 +249,7 @@ ld perimeter(const Poly& v) {
 
     return res;
 }
+
+// Does: Provides polygon areas, hulls, point tests, clipping and more.
+// Example: Poly p = {P(0,0), P(2,0), P(0,2)}; ld a = area(p); // 2
+// Requires geometry helpers from 31-33.

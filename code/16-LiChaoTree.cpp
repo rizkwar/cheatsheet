@@ -64,3 +64,7 @@ struct LiChao {
     return max(cur, oth);
   }
 };
+
+// Does: Inserts lines y=m*x+b and queries the maximum at an integer x.
+// Example: LiChao t; t.init(0, 10); t.add_line(2, 3); // t.query(4) == 11
+// Note: Use 64-bit int for the -4e18 sentinel and line arithmetic.

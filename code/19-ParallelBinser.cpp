@@ -41,3 +41,7 @@ for (int i = 1; i <= q; i++) {
     }
     cout << ans[i] << '\n';
 }
+
+// Does: Finds the first added edge connecting each queried vertex pair.
+// Example: Edges (1,2), (2,3); query (1,3) -> 2; never connected -> -1.
+// Use 1-based edges in a, query pairs in b, and DSU merge/same helpers.

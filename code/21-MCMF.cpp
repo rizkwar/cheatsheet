@@ -104,3 +104,7 @@ struct MinCostFlow {
 // kalo mau diubah jadi maximual yang diubah cost nya jadi -cost
 // -> return {f, -cost}
 // trus pas add edge weight nya juga dibikin -weight
+
+// Does: Sends up to the requested flow at minimum total cost.
+// Example: MinCostFlow f(2); f.addEdge(0, 1, 3, 2);
+// auto result = f.flow(0, 1, 2); // {flow=2, cost=4}

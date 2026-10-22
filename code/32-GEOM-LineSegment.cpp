@@ -57,3 +57,6 @@ bool segIntersect(P a,P b,P c,P d) {
     if (segIntersectProper(a,b,c,d)) return true;
     return onSeg(c,a,b)||onSeg(d,a,b)||onSeg(a,c,d)||onSeg(b,c,d);
 }
+
+// Does: Handles line/segment distances, projections and intersections.
+// Example: ld d = distPS(P(1, 1), P(0, 0), P(2, 0)); // 1; requires 31
